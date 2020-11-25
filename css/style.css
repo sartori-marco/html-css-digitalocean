@@ -1,0 +1,14 @@
+.debug [class*='col-']{
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 200px;
+}
+
+/* start jumbotron */
+#jumbotron{
+  background-color: blue;
+  height: 500px;
+  margin-top: 20px;
+}
+
+/* end jumbotron */
