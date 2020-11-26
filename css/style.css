@@ -171,8 +171,21 @@ header nav ul li a:hover{
   width: 80%;
 }
 
-
 /* end designed */
+/* features */
+#features a{
+  color: #0049FF;
+  text-decoration: none;
+
+}
+
+#features a:hover{
+  color: purple;
+}
+
+
+
+/* end features */
 
 
 
