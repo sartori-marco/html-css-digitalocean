@@ -4,9 +4,70 @@
   height: 100px;
 }
 
+.light_grey{
+  background-color: lightgrey;
+}
+
+.margin_top3{
+  margin-top: 30px;
+}
+
+.color_white{
+  color: white;
+}
+
+.top_10{
+  margin-top: 10px;
+}
+
+/* end classi riutilizzabili */
 /* start jumbotron */
+/* nav */
+header{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+header img{
+  width: 100%;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+header nav ul li a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.button{
+  border: 1px solid #0940E9;
+  padding: 0 10px ;
+
+}
+
+
+
+.button:hover{
+  background-color: #0940E9;
+
+
+}
+
+
+
+/* end nav */
+#jumbotron h1{
+  font-size: 55px;
+}
+
 #jumbotron{
-  background-color: blue;
+  background-image: url('../img/bg-home-1.jpg');
   height: 500px;
   margin-top: 50px;
 }
