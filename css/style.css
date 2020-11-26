@@ -4,10 +4,6 @@
   height: 100px;
 }
 
-.light_grey{
-  background-color: lightgrey;
-}
-
 .bg_white{
   background-color: white;
   border-radius: 10px;
@@ -52,10 +48,12 @@
 
 .title{
   font-size: 35px;
+  text-align: center;
 }
 
 .subtitle{
   font-size: 20px;
+  text-align: center;
 }
 
 /* end classi riutilizzabili */
@@ -136,11 +134,6 @@ header nav ul li a:hover{
 
 
 /* start deploy */
-#deploy{
-  background-color:
-}
-/* end deploy */
-
 #deploy ul li a{
   text-decoration: none;
 }
@@ -165,6 +158,23 @@ header nav ul li a:hover{
   left: 0;
 
 }
+/* end deploy */
+
+/* start designed */
+#designed{
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 600px;
+}
+
+#designed img{
+  margin-top: 30px;
+  width: 80%;
+}
+
+
+/* end designed */
+
+
 
 
 
