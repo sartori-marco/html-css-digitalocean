@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 <body>
 
@@ -16,20 +17,20 @@
   <div class="container">
     <nav class="top_10">
       <div class="row">
-        <div class="col-xs-2"> <a href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a> 
+        <div class="col-xs-2"> <a href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
         </div>
         <div class="col-xs-5 text-center">
           <ul>
-            <li><a href="#">Products</a></li>
+            <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
             <li><a href="#">Custumers</a></li>
-            <li><a href="#">Community</a></li>
+            <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
             <li><a href="#">Pricing</a></li>
           </ul>
         </div>
         <div class="col-xs-5 text-right">
           <ul>
             <li> <a href="#">Docs</a></li>
-            <li> <a href="#">Support</a></li>
+            <li> <a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
             <li> <a href="#">Login</a></li>
             <li class="button"> <a href="#">Sign Up</a></li>
           </ul>
@@ -53,23 +54,34 @@
           <h1> <strong>The simplest cloud platform for developers  & teams</strong></h1>
           <p class="color_white">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
         </div>
-        <div class="col-xs-12 col-sm-6 margin_top3 text-center">
-          <h2>Deploy your app in seconds.</h2>
-          <h3>Get started now.</h3>
-          <!-- email -->
-          <form class="form-horizontal">
-          <div class="form-group form-group-lg">
-            <div class="col-xs-12">
-              <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Email">
+        <!-- end col left -->
+          <div class="col-xs-12 col-sm-6 margin_top3 text-center bg_white">
+            <h2> <strong>Deploy your app in seconds.</strong></h2>
+            <h3> <strong>Get started now.</strong></h3>
+            <!-- email -->
+            <form class="form-horizontal">
+            <div class="form-group form-group-lg">
+              <div class="row">
+                <div class="col-xs-12 bottom_10">
+                  <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Email">
+                </div>
+                <div class="col-xs-12 bottom_10">
+                   <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="col-xs-12 bottom_10">
+                  <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
+                </div>
+                <div class="col-xs-12 bottom_10">
+                   <button type="button" class="btn btn-default btn-lg btn-block">Sign up with google</button>
+                </div>
+                <div class="col-xs-12">
+                  <p>By signing up you agree to the <a href="#">Terms of service.</a> </p>
+                </div>
+              </div>
+              <!-- end row -->
+              </div>
             </div>
           </div>
-          <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-           <button type="button" class="btn btn-default btn-lg btn-block">Sign up with google</button>
-
-
-        </div>
-      </div>
-      <!-- end row -->
     </div>
     <!-- end container -->
   </section>
