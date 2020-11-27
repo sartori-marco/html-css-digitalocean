@@ -45,6 +45,10 @@
   margin-bottom: 40px;
 }
 
+.padding_bottom{
+  padding-bottom: 15px;
+}
+
 
 .title{
   font-size: 35px;
@@ -196,26 +200,37 @@ header nav ul li a:hover{
 
 /* world */
 #world{
-  height: 500px;
   background-color: #0049FF;
+  padding-bottom: 50px;
 }
 
 #world .sigla{
   text-transform: uppercase;
   color: white;
 
-
 }
 
-#world .paesi{
+#world a{
+  color: lightblue;
+  text-decoration: none;
+}
+
+#world a:hover{
+  color: violet;
+}
+
+.row_dati{
+  padding: 20px 20px;
+  line-height: 20px;
   color: white;
+}
 
-
+.row_dati:not(:last-child){
+  border-bottom: 1px solid white;
 }
 
 #world .link{
   color: lightblue;
-
 
 }
 
@@ -255,7 +270,7 @@ footer{
 }
 
 footer img{
-  height: 35px; 
+  height: 35px;
 }
 
 footer ul li{
