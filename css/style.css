@@ -51,6 +51,12 @@
   text-align: center;
 }
 
+.title_white{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
 .subtitle{
   font-size: 20px;
   text-align: center;
@@ -134,6 +140,10 @@ header nav ul li a:hover{
 
 
 /* start deploy */
+#deploy ul li {
+  list-style: none;
+}
+
 #deploy ul li a{
   text-decoration: none;
 }
@@ -182,13 +192,83 @@ header nav ul li a:hover{
 #features a:hover{
   color: purple;
 }
-
-
-
 /* end features */
 
+/* world */
+#world{
+  height: 500px;
+  background-color: #0049FF;
+}
+
+#world .sigla{
+  text-transform: uppercase;
+  color: white;
+
+
+}
+
+#world .paesi{
+  color: white;
+
+
+}
+
+#world .link{
+  color: lightblue;
+
+
+}
 
 
 
+/* end world */
+/* start development */
+#development{
+
+}
+
+
+
+/* end development */
+/* start account */
+#account{
+  height: 300px;
+  background-color: #0049FF;
+}
+
+#account .title_white{
+
+}
+
+
+#account .btn_account {
+  padding: 10px 15px;
+  color: blue;
+  font-size: 20px;
+}
+/* end account */
+/* end main */
+/* start footer */
+footer{
+  background-color: #010E28;
+
+}
+
+footer img{
+  height: 35px; 
+}
+
+footer ul li{
+  list-style: none;
+  padding: 5px;
+}
+
+footer h4{
+  color: white;
+}
+
+footer ul li a{
+  color: white;
+}
 
 /* end */
