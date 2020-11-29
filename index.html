@@ -13,34 +13,59 @@
 
   <!-- start header -->
   <header>
-  <!--start nav -->
-  <div class="container">
-    <nav class="top_10">
-      <div class="row">
-        <div class="col-xs-2"> <a href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
-        </div>
-        <div class="col-xs-5 text-center">
-          <ul>
-            <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
-            <li><a href="#">Custumers</a></li>
-            <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
-            <li><a href="#">Pricing</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-5 text-right">
-          <ul>
-            <li> <a href="#">Docs</a></li>
-            <li> <a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
-            <li> <a href="#">Login</a></li>
-            <li class="button"> <a href="#">Sign Up</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-      <!-- end nav -->
-  </div>
-  <!-- /.container-->
-</header>
+      <nav class="header_navbar navbar-fixed-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3">
+                <a href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+            </div>
+              <!-- menu mobile nascosto in lg -->
+              <div class="header_hamburger_menu hidden-lg">
+                <div class="col-xs-9 text-right">
+                  <i aria-hidden class="fas fa-bars" title="Menu"></i>
+                  <span class="sr-only">Menu</span>
+                </div>
+              </div>
+                  <!--  visibile in lg -->
+                <div class="visible-lg-block">
+                  <div class="col-lg-5">
+                    <ul class="header_navbar_ul list-inline text-left">
+                      <li class="drop"><a href="#">Products</a>
+                      </li>
+                      <li>
+                        <a href="#">Customers</a>
+                      </li>
+                      <li class="drop">
+                        <a href="#">Community</a>
+                      </li>
+                      <li><a href="#">Pricing</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="header_navbar_ul list-inline text-right">
+                      <li>
+                        <a href="#">Docs</a>
+                      </li>
+                      <li class="drop">
+                        <a href="#">Support</a>
+                      </li>
+                      <li>
+                        <a href="#">Login</a>
+                      </li>
+                      <li>
+                        <a href="#" class="btn btn-default btn_white_blue">Sign Up</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end col -->
+                </div>
+                <!-- end visible in lg -->
+              </div>
+              <!-- end row -->
+            </div>
+            <!-- end container -->
+          </nav>
+        </header>
 <!-- end header -->
 
 
@@ -49,7 +74,7 @@
     <!-- start container -->
     <div class="container">
       <!-- start row -->
-      <div class="row">
+      <div class="row top_40 bottom_40">
         <div class="col-xs-12 col-sm-6 color_white margin_top3">
           <h1> <strong>The simplest cloud platform for developers  & teams</strong></h1>
           <p class="color_white">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
@@ -394,16 +419,28 @@
     </section>
     <!-- end section world -->
     <!-- start section development -->
-    <section id="development" class="debug">
+    <section id="development" class="bg_lightgrey">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12"><div class="title"><strong>Development teams love DigitalOcean</strong></div>
-          </div>
           <div class="col-xs-12">
-
+            <div class="title top_40"><strong>Development teams love DigitalOcean</strong>
+            </div>
           </div>
+            <div class="col-xs-10 col-xs-offset-2">
+              <div class="rockerbox text-center">
+                <img src="img\rockerbox-logo.png" alt="logo">
+                <h2>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</h2>
+                <h4></h4>
+
+              </div>
+              <!-- end class rockerbox -->
+            </div>
+
+
         </div>
+        <!-- end row -->
       </div>
+      <!-- end container -->
     </section>
     <!-- end section development -->
     <!-- start section account -->
@@ -426,6 +463,18 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 top_40">
           <a href="#"><img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo"></a>
+          <p>2018 DigitalOcean, LLC. All right reserved.</p>
+          <div class="made_by">Proudly made in NY</div>
+          <div class="icone">
+            <ul>
+              <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li> <a href="#"><i class="fab fa-instagram-square"></i></a></li>
+              <li> <a href="#"><i class="fab fa-youtube"></i></a></li>
+              <li> <a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <!-- end icone -->
 
         </div>
         <div class="col-xs-12 col-sm-6 col-md-2">
